@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script src="index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    </head>
+    <body>
+       <!-- Create upload iamge function -->
+        <input id="img_src" type="file"/>
+        <input id = "load_img_btn" type="button" onclick="loadImage()" value="Load"/>
+        <!-- Drop down menu to select image processing operation -->
+        <select id="image_op">
+            <option value="to_grayscale">Convert to Grayscale</option>
+            <option value="get_edge_canny">Get Edges (Canny)</option>
+            <option value="get_corners">Get Corners</option>
+        </select>
+        <input type="button" id="process_img" value="Process Image" onclick="processImage()"/>
+        </br>
+        </br>
+        <!-- This canvas is for the original image -->
+        <canvas id="local_canvas"></canvas>
+        <img id="local_img" src=""></img>
+        <!-- This is for the processes image -->
+        <canvas id='processed_canvas' src=""></img>
+    </body>
+</html>
