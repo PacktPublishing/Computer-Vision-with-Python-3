@@ -2,7 +2,9 @@
 
 This is the code repository for [Computer Vision with Python 3](https://www.packtpub.com/application-development/computer-vision-python-3?utm_source=github&utm_medium=repository&utm_campaign=9781788299763), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
-Go to Mapt
+This book is a thorough guide for developers who want to get started with building computer vision applications using Python 3. The book is divided into five sections: The Fundamentals of Image Processing, Applied Computer Vision, Making Applications Smarter,Extending your Capabilities using OpenCV, and Getting Hands on. Throughout this book, three image processing libraries Pillow, Scikit-Image, and OpenCV will be used to implement different computer vision algorithms.
+
+The book aims to equip readers to build Computer Vision applications that are capable of working in real-world scenarios effectively. Some of the applications that we will look at in the book are Optical Character Recognition, Object Tracking and building a Computer Vision as a Service platform that works over the internet.
 
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
