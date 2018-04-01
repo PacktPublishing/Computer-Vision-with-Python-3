@@ -41,7 +41,7 @@ idx = 0 # To keep track of the winner
 
 for feature in lbp_features:
     histogram, _ = np.histogram(feature, normed=True, bins=bins_num, range=(0, bins_num))
-    p = np.asaray(brick_hist)
+    p = np.asarray(brick_hist)
     q = np.asarray(histogram)
     filter_idx = np.logical_and(p != 0, q != 0)
     score = np.sum(p[filter_idx] * np.log2(p[filter_idx] / q[filter_idx]))
